@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135.084" height="51" viewBox="0 0 135.084 51">
+  <g id="グループ_20" data-name="グループ 20" transform="translate(-591.916 -1866)">
+    <g id="グループ_19" data-name="グループ 19" transform="translate(701 1736)">
+      <path id="パス_30" data-name="パス 30" d="M4.893,0h32.3a4.893,4.893,0,0,1,4.893,4.893V43.063a4.893,4.893,0,0,1-4.893,4.893H4.893A4.893,4.893,0,0,1,0,43.063V4.893A4.893,4.893,0,0,1,4.893,0Z" transform="translate(-109.084 130)" fill="#548f51"/>
+      <path id="パス_35" data-name="パス 35" d="M0,0V2.77L27.6,0V42.72L0,46Z" transform="translate(-97.599 135)" fill="#548f51"/>
+      <path id="パス_34" data-name="パス 34" d="M0,0V2.77L26,0V42.72L0,46Z" transform="translate(-96 133)" fill="#fff"/>
+    </g>
+    <text id="お知らせ" transform="translate(605 1904)" fill="#59944c" font-size="26" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.225em"><tspan x="0" y="0">お知らせ</tspan></text>
+  </g>
+</svg>

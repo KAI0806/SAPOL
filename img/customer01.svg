@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321.413" height="368.347" viewBox="0 0 321.413 368.347">
+  <defs>
+    <filter id="パス_118" x="0" y="0" width="321.413" height="368.347" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-cloud-done" x="84.065" y="98.849" width="153.283" height="113.649" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_1880" data-name="グループ 1880" transform="translate(-298.873 -3073.704)">
+    <g id="グループ_1876" data-name="グループ 1876">
+      <g transform="matrix(1, 0, 0, 1, 298.87, 3073.7)" filter="url(#パス_118)">
+        <path id="パス_118-2" data-name="パス 118" d="M87.588,303.413,0,151.711,87.588,0H262.76l87.587,151.711-87.587,151.7Z" transform="translate(312.41 6) rotate(90)" fill="#fffbc7"/>
+      </g>
+      <text id="契約等_オンライン可能" data-name="契約等
+オンライン可能" transform="translate(459.58 3321)" fill="#232323" font-size="18" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.14em"><tspan x="-30.78" y="0">契約等</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica" font-weight="700"></tspan><tspan x="-70.56" y="31">オンライン可能</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 298.87, 3073.7)" filter="url(#Icon_material-cloud-done)">
+      <path id="Icon_material-cloud-done-2" data-name="Icon material-cloud-done" d="M109.072,42.108C105.239,21.483,88.16,6,67.642,6,51.351,6,37.2,15.8,30.157,30.151,13.19,32.064,0,47.308,0,65.781c0,19.787,15.163,35.868,33.821,35.868H107.1c15.558,0,28.184-13.391,28.184-29.89C135.283,55.977,123.728,43.184,109.072,42.108Zm-52.7,41.607L36.639,62.792l7.948-8.429L56.368,66.8l29.2-30.907,7.948,8.429Z" transform="translate(93.07 98.85)" fill="#61954f"/>
+    </g>
+  </g>
+</svg>

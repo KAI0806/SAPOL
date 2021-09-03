@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321.413" height="368.347" viewBox="0 0 321.413 368.347">
+  <defs>
+    <filter id="パス_116" x="0" y="0" width="321.413" height="368.347" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_119" x="94.239" y="132.168" width="100.27" height="99.128" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="パス_120" x="125.219" y="98.343" width="101.955" height="81.671" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_1878" data-name="グループ 1878" transform="translate(-1299.713 -3073.704)">
+    <g transform="matrix(1, 0, 0, 1, 1299.71, 3073.7)" filter="url(#パス_116)">
+      <path id="パス_116-2" data-name="パス 116" d="M87.588,303.413,0,151.711,87.588,0H262.76l87.587,151.711-87.587,151.7Z" transform="translate(312.41 6) rotate(90)" fill="#fffbc7"/>
+    </g>
+    <g id="Icon_ionic-ios-chatboxes" data-name="Icon ionic-ios-chatboxes" transform="translate(1402.953 3178.047)">
+      <g transform="matrix(1, 0, 0, 1, -103.24, -104.34)" filter="url(#パス_119)">
+        <path id="パス_119-2" data-name="パス 119" d="M22.187,11.981H83.427A10.544,10.544,0,0,1,93.956,22.51V65.151a10.52,10.52,0,0,1-10.529,10.5H48.386a3.02,3.02,0,0,0-2.1.884L28.875,92.593c-.967.94-2.57.553-2.57-.8V77.808c0-1.658-1.05-2.183-2.708-2.183H23.32c-5.8,0-11.634-4.67-11.634-10.5V22.51A10.485,10.485,0,0,1,22.187,11.981Z" transform="translate(91.55 126.19)" fill="#61954f"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -103.24, -104.34)" filter="url(#パス_120)">
+        <path id="パス_120-2" data-name="パス 120" d="M52.4,30.43H3.375V12.384a9.011,9.011,0,0,1,9.009-9.009H78.321a9.011,9.011,0,0,1,9.009,9.009V58.037a9.011,9.011,0,0,1-9.009,9.009H61.436V39.439A9.052,9.052,0,0,0,52.4,30.43Z" transform="translate(130.84 100.97)" fill="#61954f"/>
+      </g>
+    </g>
+    <text id="担当との_リアルタイムチャット" data-name="担当との
+リアルタイムチャット" transform="translate(1460 3321)" fill="#232323" font-size="18" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.14em"><tspan x="-41.04" y="0">担当との</tspan><tspan y="0" font-family="Helvetica-Bold, Helvetica" font-weight="700"></tspan><tspan x="-100.08" y="31">リアルタイムチャット</tspan></text>
+  </g>
+</svg>
