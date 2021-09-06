@@ -59,8 +59,15 @@ header{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
 }
 
+header .header_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header .header_logo img{
-    height: 8rem;
+    height: 7rem;
+    margin-left: 5rem;
 }
 
 header a{
