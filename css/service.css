@@ -42,6 +42,11 @@
     color: #59944C;
 }
 
+#title .second{
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
 #title img{
     width: 100%;
     margin-bottom: 10rem;
@@ -79,6 +84,21 @@
     text-align: center;
 }
 
+#title .point03{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 5rem;
+}
+
+#title .point03 p{
+    width: 27%;
+    color: #59944C;
+    border: 1px solid #59944C;
+    padding: 1.5rem;
+}
+
 #feature{
     display: flex;
     justify-content: center;
@@ -93,6 +113,14 @@
 }
 
 #feature h3{
+    border-left: 1rem solid #528E44;
+    padding-left: 1rem;
+    margin-left: -1rem;
+    margin-bottom: 5rem;
+}
+
+#feature h4{
+    font-size: 2rem;
     border-left: 1rem solid #528E44;
     padding-left: 1rem;
     margin-left: -1rem;
@@ -152,4 +180,9 @@
     padding: .5rem 2rem;
     border-radius: 1rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+.caution{
+    font-size: 1.5rem;
+    margin-top: 5rem;
 }
