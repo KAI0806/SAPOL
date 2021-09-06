@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+#kv_second{
+    background: url("../img/service_kv.jpg") center center/cover no-repeat;
+    padding: 3rem 0;
+    margin-bottom: 15rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+#kv_second h2{
+    text-align: center;
+    text-shadow:  0 3px 6px rgba(0, 0, 0, 16%);
+    position: relative;
+}
+
+#kv_second h2::before{
+    position: absolute;
+    content: "";
+    height: .5rem;
+    width: 30rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    background: #59944C;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 15rem;
+}
+
+#title h2{
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #59944C;
+}
+
+#title img{
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+#title .service_point{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#title .service_point div{
+    /* padding: 6rem 3rem; */
+    position: relative;
+}
+
+#title .service_point div::before{
+    content: "";
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    border-radius: 20rem;
+    background: #5C9453;
+
+    z-index: -1;
+}
+
+#title .service_point div p{
+    color: white;
+    text-align: center;
+}
+
+#feature{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #707070;
+    width: calc(50% - 20rem);
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 15rem;
+    padding: 10rem;
+}
+
+#feature h3{
+    border-left: 1rem solid #528E44;
+    padding-left: 1rem;
+    margin-left: -1rem;
+    margin-bottom: 5rem;
+}
+
+#feature ul li{
+    font-size: 2rem;
+    margin: 2rem 0;
+    list-style-type: decimal
+}
+
+#service_manu{
+    width: 50%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15rem;
+}
+
+#service_manu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    background: white;
+    transition: all .5s ease-in-out;
+}
+
+#service_manu a:hover{
+    background: #AAF898;
+    border-radius: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+#service_manu .is-active{
+    background: #AAF898;
+}
+
+#service_manu a img{
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+
+#service_manu a p{
+    background: white;
+    color: #232323;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
