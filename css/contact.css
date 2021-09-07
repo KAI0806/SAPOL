@@ -24,3 +24,106 @@
     bottom: 0;
     background: #59944C;
 }
+
+#tell{
+    width: 40%;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+#tell h3{
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+#tell h3::before{
+    position: absolute;
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    background: #59944C;
+    left: -4rem;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#tell .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#tell .wrap a{
+    font-size: 4.5rem;
+    color: black;
+}
+
+#tell .wrap a:hover{
+    color: #59944C;
+}
+
+#tell .wrap a img{
+    height: 4.5rem;
+}
+
+#form{
+    width: 40%;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 15rem;
+}
+
+#form h3{
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+#form h3::before{
+    position: absolute;
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    background: #59944C;
+    left: -4rem;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+label{
+    font-size: 2rem;
+}
+
+label span{
+    font-size: 1.5rem;
+    background-color: #78909C;
+    color: white;
+    padding:.5rem 1rem;
+    border-radius: .5rem;
+}
+
+label .red{
+    background: #D9534F;
+}
+
+input, textarea{
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    margin: 1rem 0 2.5rem;
+}
+
+textarea{
+    height: 10rem;
+}
+
+button{
+    font-size: 2rem;
+    width: 100%;
+    padding: 2.5rem 0;
+    border: none;
+    color: white;
+    border-radius: 1rem;
+    background: #59944C;
+}

@@ -41,37 +41,45 @@
         </section>
 
         <section id="tell">
-            <a href=""><img src="img/tell.svg" alt=""> 0120-424-474</a>
-            <p>受付時間　9:00～18:00</p>
+            <h3>お電話でのお問い合せ</h3>
+
+            <div class="wrap">
+                <a href=""><img src="img/tell.svg" alt=""> 0120-424-474</a>
+                <p>受付時間　9:00～18:00</p>
+            </div>
         </section>
 
-        <section>
-            <h4>メールでのお問い合せ</h4>
+        <section id="form">
+            <h3>メールでのお問い合せ</h3>
 
             <!-- class, action, methodを変更しないでください -->
             <form class="formrun" action="https://form.run/api/v1/r/2pcyok3tg0stevh62ldivj7f" method="post">
                 <!-- ↓自由に要素を追加・編集することができます -->
                 <div>
-                    <label>お名前</label>
-                    <input name="お名前" type="text">
+                    <label>会社名　<span>任意</span></label>
+                    <br/><input name="会社名" type="text" placeholder="会社名" >
+                </div>
+                
+                <div>
+                    <label>お名前　<span>任意</span></label>
+                    <br/><input name="お名前" type="text" placeholder="お名前" >
+                </div>
+
+                <div>
+                    <label>電話番号　<span>任意</span></label>
+                    <br/><input name="電話番号" type="text" placeholder="000-0000-0000">
                 </div>
             
                 <div>
-                    <label>メールアドレス [必須]</label>
-                    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                    <label>メールアドレス　<span class="red">必須</span></label>
+                    <br/><input name="メールアドレス" type="text" placeholder="example@mail.com" data-formrun-type="email" data-formrun-required>
                     <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
                 </div>
             
                 <div>
-                    <label>お問い合わせ [必須]</label>
-                    <textarea name="お問い合わせ" data-formrun-required></textarea>
+                    <label>お問い合わせ　<span class="red">必須</span></label>
+                    <br/><textarea name="お問い合わせ" placeholder="内容" data-formrun-required></textarea>
                     <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
-                </div>
-            
-                <div>
-                    <label>個人情報利用同意 [必須]</label>
-                    <input type="checkbox" name="個人情報利用同意" data-formrun-required>
-                    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
                 </div>
             
                 <!-- ボット投稿をブロックするためのタグ -->
