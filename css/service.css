@@ -64,6 +64,10 @@
     position: relative;
 }
 
+#title .service_point div img{
+    margin-bottom: 0;
+}
+
 #title .service_point div::before{
     content: "";
     position: absolute;
@@ -97,6 +101,10 @@
     color: #59944C;
     border: 1px solid #59944C;
     padding: 1.5rem;
+}
+
+.lifeline{
+    margin-bottom: 10rem;
 }
 
 #feature{
