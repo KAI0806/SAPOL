@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+#kv_contact{
+    background: url("../img/contact_kv.jpg") center center/cover no-repeat;
+    padding: 3rem 0;
+    margin-bottom: 15rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+#kv_contact h2{
+    text-align: center;
+    text-shadow:  0 3px 6px rgba(0, 0, 0, 16%);
+    position: relative;
+}
+
+#kv_contact h2::before{
+    position: absolute;
+    content: "";
+    height: .5rem;
+    width: 30rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    background: #59944C;
+}
