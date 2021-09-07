@@ -130,6 +130,10 @@ header a{
     padding: .5rem;
 }
 
+.header_conotact:hover{
+    box-shadow: inset 5px 5px 3px rgba(0, 0, 0, 30%);
+}
+
 .header_conotact p{
     color: white;
 }
