@@ -206,6 +206,7 @@
 
 #main_cv a .discuss{
     position: absolute;
+    width: 12rem;
     left: 1rem;
     bottom: -50%;
     transition: all .5s ease-in-out;
@@ -323,4 +324,69 @@
 #top_contact a:hover:after{
     right: 4rem;
     transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width:767px) {
+    #kv{
+        margin: 0;
+        width: calc(100% - 2rem);
+    }
+
+    #kv .kv01 h1{
+        text-align: center;
+        font-weight: 800;
+    }
+
+    #about .about_wrap{
+        width: 100%;
+        border-radius: 10rem;
+    }
+
+    #about .about_wrap h2{
+        font-size: 3.5rem;
+    }
+
+    #about:before{
+        height: 14rem;
+        top: unset;
+        bottom: -6rem;
+    }
+
+    #service .service_wrap{
+        display: block;
+        width: 90%;
+    }
+
+    #service .service_wrap a{
+        width: 100%;
+        padding: 10rem 0;
+    }
+
+    #main_cv a{
+        padding: 1rem 14rem 1rem 16rem;
+    }
+    
+    #customer .customer_wrap{
+        width: auto;
+    }
+
+    #customer .customer_wrap img{
+        width: 100%;
+    }
+
+    .news_title{
+        position: unset;
+        margin-bottom: 5rem;
+    }
+
+    #news .news_wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #news .news_wrap .news_content{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
 }
