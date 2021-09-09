@@ -13,7 +13,7 @@
     <header>
         <a class="header_logo" href="index.html"><img src="img/head_logo.svg" alt="サポール"></a>
         <div class="header_right">
-            <ul class="header_nav">
+            <ul class="header_nav pc_only">
                 <li><a href="index.html">ホーム</a></li>
                 <li><a href="about.html">サポールについて</a></li>
                 <li class="trigger">
@@ -26,10 +26,35 @@
                     </ul>
                 </li>
             </ul>
-            <a class="header_conotact" href="contact.html">
+            <a class="header_conotact  pc_flex" href="contact.html">
                 <img src="img/header_contact.svg" alt="コンタクト">
                 <p>お問い合せ</p>
             </a>
+            <nav id="nav" class="header_conotact sp_flex">
+                <ul>
+                    <li class="border"><a href="index.html">ホーム</a></li>
+                    <li class="border"><a href="about.html">サポールについて</a></li>
+                    <li>
+                        <p class="border">事業内容</p>
+                        <ul>
+                            <li><a href="service01.html">住宅紹介・住み替え支援</a></li>
+                            <li><a href="service02.html">お引越しの支援</a></li>
+                            <li><a href="service03.html">家具・家電の支援</a></li>
+                            <li><a href="service04.html">ライフラインの支援</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h4>安心・安全の新生活支援</h4>
+                <a class="hamb_arrow" href=""><img class="dash" src="img/dash.svg" alt="">ご相談はこちらへ</a>
+
+                <a class="hamb_contact" href="contact.html"><img src="img/header_contact.svg" alt=""><p>お問い合わせ</p></a>
+            </nav>
+            <div id="hamburger" class="sp_only">
+                <span class="inner_line" id="line1"></span>
+                <span class="inner_line" id="line2"></span>
+                <span class="inner_line" id="line3"></span>
+            </div>
         </div>
     </header>
 
@@ -42,7 +67,7 @@
             <h2>SAPOLは新生活者様の味方です！</h2>
             <h3>
                 住まい紹介・住み替え支援をはじめとする
-                <br/>情報提供で引っ越ししたい皆様の活動を支援します。
+                <br/>情報提供で<br class="sp_only"/>引っ越ししたい皆様の活動を支援します。
             </h3>
         </section>
         
@@ -104,7 +129,7 @@
 
                 <div class="company_content">
                     <p class="row_left">所在地</p>
-                    <p>〒531-0071 大阪府大阪市北区中津一丁目6番33号　2階</p>
+                    <p>〒531-0071<br class="sp_only"/> 大阪府大阪市北区<br class="sp_only"/>中津一丁目6番33号　2階</p>
                 </div>
 
                 <div class="company_content">
@@ -126,7 +151,8 @@
         </section>
 
         <section id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13119.236053372557!2d135.4960862!3d34.7099968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf89ad690bfda9e0d!2z44K144Od44O844Or5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1630908343041!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="pc_only" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13119.236053372557!2d135.4960862!3d34.7099968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf89ad690bfda9e0d!2z44K144Od44O844Or5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1630908343041!5m2!1sja!2sjp" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="sp_only" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13119.236053372557!2d135.4960862!3d34.7099968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf89ad690bfda9e0d!2z44K144Od44O844Or5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1630908343041!5m2!1sja!2sjp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
         <section id="top_cv">
@@ -168,7 +194,7 @@
     
     <footer>
         <div class="footer_content">
-            <p>©2021 SAPOL. All rights reserved.</p>
+            <p class="pc_only">©2021 SAPOL. All rights reserved.</p>
             <div class="line">
                 <p>LINE@はコチラ</p>
                 <img src="img/line.PNG" alt="">
@@ -178,7 +204,9 @@
                 <a href="mailto:info@sapol.jp"><img class="address_icon" src="img/mail.svg" alt="">info@sapol.jp</a>
             </div>
             <img class="foot_icon" src="img/head_logo.svg" alt="">
+            <p class="sp_only">©2021 SAPOL. All rights reserved.</p>
         </div>
     </footer>
+    <script src="menu.js"></script>
 </body>
 </html>

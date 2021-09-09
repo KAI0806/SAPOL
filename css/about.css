@@ -99,3 +99,54 @@
 #company .wrap .company_content .row_left{
     width: 30%;
 }
+
+@media screen and (max-width:767px){
+    #title{
+        margin-bottom: 10rem;
+    }
+    
+    #title h2{
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+
+    #title h3{
+        font-size: 2.5rem;
+        line-height: 200%;
+    }
+
+    #topic{
+        background: url("../img/topic_sp_bg.jpg") center center/cover no-repeat;
+    }
+
+    #topic .wrap{
+        display: block;
+    }
+
+    #topic .wrap div{
+        width: calc(100% - 8rem);
+        margin-bottom: 5rem;
+        padding: 4rem;
+    }
+
+    #topic .wrap div h3{
+        font-size: 2.3rem;
+    }
+    #topic .wrap div p{
+        font-size: 1.7rem;
+    }
+
+    #company .wrap{
+        border: none;
+        padding: 0;
+        width: 85%;
+    }
+
+    #company .wrap .company_content div{
+        width: 70%;
+    }
+
+    #map{
+        margin-bottom: 10rem;
+    }
+}

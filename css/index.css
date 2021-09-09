@@ -332,6 +332,10 @@
         width: calc(100% - 2rem);
     }
 
+    #kv .kv01{
+        padding: 14.5rem 0;
+    }
+
     #kv .kv01 h1{
         text-align: center;
         font-weight: 800;
@@ -388,5 +392,9 @@
         width: 90%;
         margin: auto;
         margin-bottom: 5rem;
+    }
+
+    #about, #service{
+        margin-bottom: 15rem;
     }
 }

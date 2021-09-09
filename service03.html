@@ -13,7 +13,7 @@
     <header>
         <a class="header_logo" href="index.html"><img src="img/head_logo.svg" alt="サポール"></a>
         <div class="header_right">
-            <ul class="header_nav">
+            <ul class="header_nav pc_only">
                 <li><a href="index.html">ホーム</a></li>
                 <li><a href="about.html">サポールについて</a></li>
                 <li class="trigger">
@@ -26,16 +26,41 @@
                     </ul>
                 </li>
             </ul>
-            <a class="header_conotact" href="contact.html">
+            <a class="header_conotact  pc_flex" href="contact.html">
                 <img src="img/header_contact.svg" alt="コンタクト">
                 <p>お問い合せ</p>
             </a>
+            <nav id="nav" class="header_conotact sp_flex">
+                <ul>
+                    <li class="border"><a href="index.html">ホーム</a></li>
+                    <li class="border"><a href="about.html">サポールについて</a></li>
+                    <li>
+                        <p class="border">事業内容</p>
+                        <ul>
+                            <li><a href="service01.html">住宅紹介・住み替え支援</a></li>
+                            <li><a href="service02.html">お引越しの支援</a></li>
+                            <li><a href="service03.html">家具・家電の支援</a></li>
+                            <li><a href="service04.html">ライフラインの支援</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h4>安心・安全の新生活支援</h4>
+                <a class="hamb_arrow" href=""><img class="dash" src="img/dash.svg" alt="">ご相談はこちらへ</a>
+
+                <a class="hamb_contact" href="contact.html"><img src="img/header_contact.svg" alt=""><p>お問い合わせ</p></a>
+            </nav>
+            <div id="hamburger" class="sp_only">
+                <span class="inner_line" id="line1"></span>
+                <span class="inner_line" id="line2"></span>
+                <span class="inner_line" id="line3"></span>
+            </div>
         </div>
     </header>
 
     <main>
         <section id="kv_second">
-            <h2>お引越しの支援</h2>
+            <h2>家具・家電の支援</h2>
         </section>
 
         <section id="title">
@@ -43,19 +68,20 @@
                 住み替え時、家具・家電などの導入サービス
             </h2>
             
-            <img class="second" src="img/title_img02.svg" alt="">
+            <img class="second pc_only" src="img/title_img02.svg" alt="">
 
-            <div class="point03">
+            <div class="point03 pc_only">
                 <p>引っ越し時に面倒な家具選びの手間やコストの悩み解決可能なサービス提供。</p>
                 <p>物件確定時に不動産会社orサポールの家具・家電サービス紹介を行って頂く。</p>
                 <p>仲介業者が紹介を行いサービスを希望された退寮者に対して提案、契約業務。</p>
             </div>
 
+            <img class="sp_only" src="img/title_img03_sp.svg" alt="">
             <p>上記の流れにて、サポールが仲介業者をご紹介させて頂き、お部屋が決まった際に仲介業者から家具・家電サービスをご提案致します。</p>
         </section>
 
         <section id="feature">
-            <h4>お引っ越しされる方が家具・家電レンタル、販売サービスを受けるメリット</h4>
+            <h4>お引っ越しされる方が家具・家電レンタル、<br class="sp_only"/>販売サービスを受けるメリット</h4>
 
             <ul>
                 <li>住み替え時の悩みとして家具・家電準備にかかる初期費用や手間などが物件確定時に同時に依頼でき、コストと手間の削減が可能です。</li>
@@ -65,30 +91,33 @@
                 <li>取扱い不注意による破損等が起きてしまった場合でもレンタルなら無料で修理や新品への交換を行います。</li>
             </ul>
 
-            <p class="caution">※レンタルの取り扱う家具は、61ブランド 45,000種、販売は300ブランドから選択可能です。</p>
+            <p class="caution">※レンタルの取り扱う家具は、61ブランド 45,000種、<br class="sp_only"/>販売は300ブランドから選択可能です。</p>
         </section>
 
         <section id="service_manu">
-            <a href="">
-                <img src="img/service01.svg" alt="">
-                <p>住宅紹介・住み替え支援</p>
-            </a>
-
-            <a href="">
-                <img src="img/service02.svg" alt="">
-                <p>お引越しの支援</p>
-            </a>
-
-            <a class="is-active" href="">
-                <img src="img/service03.svg" alt="">
-                <p>家具・家電の支援</p>
-            </a>
-
-            <a href="">
-                <img src="img/service04.svg" alt="">
-                <p>ライフラインの支援</p>
-            </a>
-
+            <div>
+                <a href="service01.html">
+                    <img src="img/service01.svg" alt="">
+                    <p>住宅紹介・住み替え支援</p>
+                </a>
+    
+                <a href="service02.html">
+                    <img src="img/service02.svg" alt="">
+                    <p>お引越しの支援</p>
+                </a>
+            </div>
+            
+            <div>
+                <a class="is-active" href="service03.html">
+                    <img src="img/service03.svg" alt="">
+                    <p>家具・家電の支援</p>
+                </a>
+    
+                <a href="service04.html">
+                    <img src="img/service04.svg" alt="">
+                    <p>ライフラインの支援</p>
+                </a>
+            </div>
         </section>
 
         <section id="top_cv">
@@ -130,7 +159,7 @@
     
     <footer>
         <div class="footer_content">
-            <p>©2021 SAPOL. All rights reserved.</p>
+            <p class="pc_only">©2021 SAPOL. All rights reserved.</p>
             <div class="line">
                 <p>LINE@はコチラ</p>
                 <img src="img/line.PNG" alt="">
@@ -140,7 +169,9 @@
                 <a href="mailto:info@sapol.jp"><img class="address_icon" src="img/mail.svg" alt="">info@sapol.jp</a>
             </div>
             <img class="foot_icon" src="img/head_logo.svg" alt="">
+            <p class="sp_only">©2021 SAPOL. All rights reserved.</p>
         </div>
     </footer>
+    <script src="menu.js"></script>
 </body>
 </html>

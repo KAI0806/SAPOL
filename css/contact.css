@@ -127,3 +127,17 @@ button{
     border-radius: 1rem;
     background: #59944C;
 }
+
+@media screen and (max-width:767px){
+    #kv_contact{
+        background: url("../img/contact_kv.jpg") center/cover no-repeat;
+    }
+
+    #tell, #form{
+        width: 70%;
+    }
+
+    #tell .wrap{
+        display: block;
+    }
+}
