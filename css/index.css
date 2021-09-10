@@ -46,6 +46,12 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
 }
 
+#kv .kv01 a:hover{
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 16%),
+                inset 4px 4px 4px rgba(0, 0, 0, 16%);
+    background: linear-gradient( #59944C 0%, #6DB45E 50%, #59944C 100%);
+}
+
 
 
 /* アバウト */
