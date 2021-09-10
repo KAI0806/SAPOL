@@ -412,7 +412,7 @@ footer .footer_content .foot_icon{
     
     #nav ul li{
         color: white;
-        margin: 7rem auto;
+        margin-bottom: 7rem;
     }
 
     .hamb_arrow{
@@ -448,7 +448,7 @@ footer .footer_content .foot_icon{
     #nav ul .border{
         border-left: 1.5rem solid #59944C;
         padding-left: 1rem;
-        font-family: 800;
+        font-weight: 800;
     }
 
     #nav > ul > li > ul{
