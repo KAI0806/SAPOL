@@ -221,7 +221,7 @@
 #main_cv a:after{
     position: absolute;
     content: "→";
-    right: 5rem;
+    right: 8rem;
     transition: all .3s ease-in-out;
 }
 
@@ -231,7 +231,7 @@
 }
 
 #main_cv a:hover:after{
-    right: 8rem;
+    right: 5rem;
     transition: all .3s ease-in-out;
 }
 
