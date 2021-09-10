@@ -196,6 +196,7 @@
     background: white;
     transition: all .5s ease-in-out;
     width: 48%;
+    padding-top: 2rem;
 }
 
 #service_manu a:hover{
@@ -217,7 +218,7 @@
     background: white;
     color: #232323;
     font-size: 1.7rem;
-    padding: .5rem 2rem;
+    padding: 1rem 2rem;
     border-radius: 1rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
 }
