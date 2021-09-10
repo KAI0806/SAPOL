@@ -321,6 +321,12 @@ footer .footer_content .line{
 footer .footer_content .line img{
     height: 5rem;
     border: 1px solid black;
+    transition: all .3s ease-in-out;
+}
+
+footer .footer_content .line img:hover{
+    opacity: .3;
+    transition: all .3s ease-in-out;
 }
 
 footer .footer_content .address{
