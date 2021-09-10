@@ -237,6 +237,10 @@
         font-size: 4.5rem;
     }
 
+    #kv_second h2::before{
+        bottom: -1.5rem;
+    }
+
     #title{
         width: 95%;
     }

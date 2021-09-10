@@ -101,6 +101,10 @@
 }
 
 @media screen and (max-width:767px){
+    #kv_second h2::before{
+        bottom: -1.2rem;
+    }
+
     #title{
         margin-bottom: 10rem;
     }
