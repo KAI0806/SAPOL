@@ -251,6 +251,19 @@
         width: 90%;
     }
 
+    #title .service01{
+        width: 65%;
+        margin-left: 8rem;
+    }
+
+    #title .service02{
+        width: 65%;
+    }
+
+    #title .service04{
+        width: 60%;
+    }
+
     #title .service_point{
         display: block;
     }
