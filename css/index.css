@@ -215,7 +215,7 @@
 #main_cv a .discuss{
     position: absolute;
     width: 15rem;
-    left: -5rem;
+    left: -4rem;
     bottom: -34%;
     transition: all .5s ease-in-out;
 }
@@ -379,7 +379,7 @@
     }
 
     #main_cv a{
-        padding: 1rem 14rem 1rem 16rem;
+        padding: 1rem 15rem 1rem 15rem;
     }
     
     #customer .customer_wrap{
