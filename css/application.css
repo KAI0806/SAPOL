@@ -405,7 +405,7 @@ footer .footer_content .foot_icon{
     }
 
     #nav{
-        padding: 12rem 0 0 0;
+        padding: 10rem 0 0 0;
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -427,7 +427,7 @@ footer .footer_content .foot_icon{
     
     #nav ul li{
         color: white;
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
     }
 
     .hamb_arrow{
@@ -471,7 +471,7 @@ footer .footer_content .foot_icon{
     }
 
     #nav > ul > li > ul > li{
-        margin: 5rem 0;
+        margin: 3rem 0;
         position: relative;
     }
 
