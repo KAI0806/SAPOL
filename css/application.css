@@ -435,14 +435,15 @@ footer .footer_content .foot_icon{
         background: white;
         padding: 1rem 10rem;
         border-radius: 5rem;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+        box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
         font-size: 3rem;
         color: #59944C;
-        margin: 5rem 0;
+        margin: 1rem 0 5rem;
     }
 
     #nav h4{
-        font-size: 3rem;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
     .hamb_arrow .dash{
