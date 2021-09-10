@@ -44,7 +44,7 @@ h2{
 
 h3{
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -117,6 +117,10 @@ header a{
     width: 80%;
 }
 
+.header_nav a{
+    font-size: 2.1rem;
+}
+
 .header_nav > .trigger {
     position: relative;
 }
@@ -124,6 +128,8 @@ header a{
 .header_nav > li{
     height: 4rem;
     margin-top: 2rem;
+    width: 30%;
+    text-align: center;
 }
 
 .drop{
@@ -171,7 +177,7 @@ header a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: 1.5rem;
 }
 
 .header_conotact:hover{
