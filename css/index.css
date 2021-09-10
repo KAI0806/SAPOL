@@ -265,6 +265,10 @@
     margin-bottom: 10rem;
 }
 
+#customer .customer_wrap img{
+    width: 45rem;
+}
+
 #customer a{
     background: white;
     padding: 1rem 15rem;

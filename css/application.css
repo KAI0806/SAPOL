@@ -105,7 +105,7 @@ header a{
 .header_nav{
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: center;
     width: 80%;
 }
 
