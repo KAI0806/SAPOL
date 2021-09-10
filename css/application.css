@@ -389,6 +389,10 @@ footer .footer_content .foot_icon{
         padding: 0;
     }
 
+    header .header_logo img{
+        margin-left: 3rem;
+    }
+
     header nav ul li a{
         font-size: 3rem;
     }
