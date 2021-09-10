@@ -394,7 +394,7 @@ footer .footer_content .foot_icon{
     }
 
     #nav{
-        padding: .5rem 0;
+        padding: 12rem 0 0 0;
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -404,6 +404,9 @@ footer .footer_content .foot_icon{
         transition: all .7s ease-in-out;
         z-index: 10;
         opacity: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     /* #nav ul{
