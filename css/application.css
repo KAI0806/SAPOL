@@ -418,6 +418,7 @@ footer .footer_content .foot_icon{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        overflow: scroll;
     }
 
     /* #nav ul{
@@ -640,11 +641,5 @@ footer .footer_content .foot_icon{
 
     .address_icon{
         height: 2rem;
-    }
-}
-
-@media screen and (max-width:374px){
-    html{
-        font-size: 1.3208vw; 
     }
 }
