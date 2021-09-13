@@ -30,6 +30,9 @@
     <meta name="twitter:title" content="サポール株式会社｜安心・安全の新生活支援" />
     <meta name="twitter:image" content="img/OGP.jpg" />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -84,13 +87,26 @@
 
     <main>
         <section id="kv">
-            <div class="kv01">
-                <h2><span>S</span>APOL <span>S</span>ERVICE</h2>
-                <h1>安心・安全<br class="sp_only"/>の<br class="sp_only"/>新生活支援</h1>
-                <img class="pc_only" src="img/kv01.svg" alt="SAPOL">
-                <img class="sp_only" src="img/kv01_sp.svg" alt="SAPOL">
-                <a class="pc_only" href="service01.html">詳しくはこちら ></a>
-            </div>
+            <ul class="slider">
+                <li class="kv01">
+                    <h2><span>S</span>APOL <span>S</span>ERVICE</h2>
+                    <h1>安心・安全<br class="sp_only"/>の<br class="sp_only"/>新生活支援</h1>
+                    <img class="pc_only" src="img/kv01.svg" alt="SAPOL">
+                    <img class="sp_only" src="img/kv01_sp.svg" alt="SAPOL">
+                    <a class="pc_only" href="service01.html">詳しくはこちら ></a>
+                </li>
+                <li class="kv02">
+                    <p>住み替え支援サービス</p>
+                    <h2><span>N</span>EW <span>L</span>IFE 6SET</h2>
+                    <h3>家具・家電</h3>
+                    <a class="pc_only" href="service01.html">詳しくはこちら ></a>
+                </li>
+                <li class="kv03">
+                    <img class="pc_only" src="img/kv03_img.png" alt="SAPOL">
+                    <h3>SubSclifeで、⾃由で柔軟な暮らしを。</h3>
+                    <p>新品のデザイン家具家電を⽉額定額でご利⽤いただける、話題の新サービスです。</p>
+                </li>
+            </ul>
         </section>
 
         <section id="top_cv">
@@ -209,5 +225,7 @@
         </div>
     </footer>
     <script src="menu.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slider.js"></script>
 </body>
 </html>
