@@ -106,9 +106,9 @@ header a{
 
 .header_right{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: stretch;
-    width: 40%;
+    width: 46%;
 }
 
 .header_nav{
@@ -116,6 +116,19 @@ header a{
     justify-content: space-around;
     align-items: center;
     width: 80%;
+}
+
+.header_nav.pc_only > li > a{
+    padding: 2rem;
+    width: 100%;
+    border-radius: 5rem;
+    transition: all .3s ease-in-out;
+}
+
+.header_nav.pc_only > li > a:hover{
+    background: #59944C;
+    color: white;
+    transition: all .3s ease-in-out;
 }
 
 .header_nav a{
@@ -151,6 +164,15 @@ header a{
     padding: .5rem 0;
     overflow: hidden;
     transition: .5s ease-in-out;
+}
+
+.drop li:hover{
+    background: #59944C;
+    transition: .5s ease-in-out;
+}
+
+.drop li:hover a{
+    color: white;
 }
 
 .trigger:hover > ul > li {

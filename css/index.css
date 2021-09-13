@@ -324,7 +324,7 @@
 #customer a .dash{
     position: absolute;
     left: 3rem;
-    bottom: -25%;
+    bottom: -5%;
     transition: all .5s ease-in-out;
 }
 
