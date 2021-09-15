@@ -1,5 +1,5 @@
 $('.slider').slick({ //{}を入れる
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 4000, //「オプション名: 値」の形式で書く
 	  infinite: true,　　　　//スライドのループ
 	  pauseOnHover: false,
