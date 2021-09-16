@@ -461,22 +461,6 @@
         width: 100%;
     }
 
-    .news_title{
-        position: unset;
-        margin-bottom: 5rem;
-    }
-
-    #news .news_wrap{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #news .news_wrap .news_content{
-        width: 90%;
-        margin: auto;
-        margin-bottom: 5rem;
-    }
-
     #about, #service{
         margin-bottom: 15rem;
     }

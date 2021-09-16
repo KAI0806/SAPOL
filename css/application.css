@@ -310,9 +310,14 @@ header a{
 #news .news_wrap .news_content{
     border-bottom: 1px solid #232323;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 5rem;
+}
+
+#news .news_wrap .news_content .date{
+    width: 23%;
+    padding-left: 5rem;
 }
 
 footer{
@@ -632,6 +637,22 @@ footer .footer_content .foot_icon{
     
     #top_cv .cv_right a:hover:after{
         right: 3rem;
+    }
+
+    .news_title{
+        position: unset;
+        margin-bottom: 5rem;
+    }
+
+    #news .news_wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #news .news_wrap .news_content{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 5rem;
     }
 
     footer{
