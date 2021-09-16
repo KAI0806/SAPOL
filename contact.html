@@ -110,18 +110,20 @@
                 </div>
                 
                 <div>
-                    <label>お名前　<span>任意</span></label>
-                    <br/><input name="お名前" type="text" placeholder="お名前" >
+                    <label>お名前　<span class="red">必須</span></label>
+                    <br/><input name="お名前" type="text" placeholder="お名前" data-formrun-required>
+                    <div data-formrun-show-if-error="お名前">お名前を入力してください</div>
                 </div>
 
                 <div>
-                    <label>電話番号　<span>任意</span></label>
-                    <br/><input name="電話番号" type="text" placeholder="000-0000-0000">
+                    <label>電話番号　<span class="red">必須</span></label>
+                    <br/><input name="電話番号" type="text" data-formrun-type="tel" placeholder="000-0000-0000" data-formrun-required>
+                    <div data-formrun-show-if-error="電話番号">電話番号を正しく入力してください</div>
                 </div>
             
                 <div>
                     <label>メールアドレス　<span class="red">必須</span></label>
-                    <br/><input name="メールアドレス" type="text" placeholder="example@mail.com" data-formrun-type="email" data-formrun-required>
+                    <br/><input name="メールアドレス" type="text" data-formrun-type="email" placeholder="example@mail.com" data-formrun-type="email" data-formrun-required>
                     <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
                 </div>
             
