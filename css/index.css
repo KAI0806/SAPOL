@@ -87,6 +87,10 @@
     font-weight: bold;
 }
 
+#kv .kv03 p span{
+    color: #59944C;
+}
+
 #kv .kv01 a,
 #kv .kv02 a{
     background: linear-gradient( #6DB45E 0%, #59944C 50%, #6DB45E 100%);
