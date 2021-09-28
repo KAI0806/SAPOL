@@ -11,6 +11,7 @@
     text-align: center;
     text-shadow:  0 3px 6px rgba(0, 0, 0, 16%);
     position: relative;
+    font-weight: 600;
 }
 
 #kv_contact h2::before{
@@ -126,6 +127,7 @@ button{
     color: white;
     border-radius: 1rem;
     background: #59944C;
+    cursor: pointer;
 }
 
 @media screen and (max-width:767px){

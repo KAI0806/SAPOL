@@ -160,6 +160,10 @@
     margin-bottom: 5rem;
 }
 
+#feature ul{
+    padding: 0rem 1.5rem;
+}
+
 #feature ul li{
     font-size: 2rem;
     margin: 2rem 0;
