@@ -99,11 +99,39 @@
         </section>
 
         <section id="form">
-            <h3>メールでのお問い合せ</h3>
+
 
             <!-- class, action, methodを変更しないでください -->
             <form class="formrun" action="https://form.run/api/v1/r/2pcyok3tg0stevh62ldivj7f" method="post">
                 <!-- ↓自由に要素を追加・編集することができます -->
+                <h3>オンライン相談について</h3>
+                <p>※オンライン相談をご希望の方は相談希望日を選択の上、お問合せ下さい。</p>
+
+                <div>
+                    <fieldset>
+                        <span>オンライン相談　<span class="red">必須</span></span>
+                        <div>
+                            <label class="form-check-label form-check-inline">
+                            <input class="form-check-input" type="radio" name="オンライン相談" value="希望する" data-formrun-required>
+                            希望する
+                            </label>
+                            <label class="form-check-label form-check-inline">
+                            <input class="form-check-input" type="radio" name="オンライン相談" value="希望しない" data-formrun-required>
+                            希望しない
+                            </label>
+                            <br>
+                            <span class="text-danger" data-formrun-show-if-error="オンライン相談">オンライン相談を選択してください</span>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div>
+                    <label>希望日　<span>任意</span></label>
+                    <input name="希望日" type="text" placeholder="2022/01/01 15:00~16:00">
+                </div>
+
+                <h3>メールでのお問い合せ</h3>
+
                 <div>
                     <label>会社名　<span>任意</span></label>
                     <br/><input name="会社名" type="text" placeholder="会社名" >
