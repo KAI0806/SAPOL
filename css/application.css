@@ -347,7 +347,7 @@ footer .footer_content .line{
 }
 
 footer .footer_content .line img{
-    height: 5rem;
+    height: 8rem;
     border: 1px solid black;
     transition: all .3s ease-in-out;
 }
